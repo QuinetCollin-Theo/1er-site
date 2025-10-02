@@ -1,0 +1,86 @@
+header
+{
+    color: black;
+    text-align: center;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 44%;
+    border-radius: 10%;
+}
+
+body
+{
+    background: linear-gradient(133deg,rgba(97, 43, 43, 0.87) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+section
+{
+    margin-bottom: 1%;
+    display:flex;
+    flex-direction: row;
+}
+
+.Bloc1, .Bloc2, .Bloc3, .Bloc4, .Bloc5, .Bloc6
+{
+    text-align:center;
+    margin: 1%;
+    width: 75%;
+    border: 1px solid #000000;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+}
+
+aside
+{
+    text-align: center;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 38%;
+    border-radius: 10%;
+}
+
+footer
+{
+    text-align: center;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 40%;
+    border-radius: 10%;
+}
+
+img
+{
+    width: 25%;
+}
+
+a:link, a:visited {
+    background-color: rgb(249, 196, 126);
+    color: rgb(93, 74, 84);
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+a:hover, a:active {
+    background-color: hotpink;
+    color: rgb(93, 74, 84);
+    font-weight: bold;
+}
+
+label
+{
+    border: 2px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10%;
+    background-color: rgb(249, 243, 126);
+}
